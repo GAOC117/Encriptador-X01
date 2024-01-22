@@ -193,7 +193,7 @@ body {
   padding-left: 3rem;
 }
 
-.informacion__parrafo span{
+.informacion__parrafo span {
   display: block;
   font-size: 1.5rem;
 }
@@ -251,7 +251,7 @@ body {
 
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px, rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
   color: black;
-   font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive;
 }
 
 
@@ -265,7 +265,7 @@ body {
     border: none;
     transition: all 0.2s ease-in-out;
     background-color: white;
-   
+
   }
 
 }
@@ -282,7 +282,7 @@ body {
 }
 
 
-.limpiar{
+.limpiar {
   height: 5rem;
   width: 20rem;
   font-size: 2.4rem;
@@ -356,19 +356,19 @@ body {
   }
 }
 
-  .imagen {
-    display: none;
-    
+.imagen {
+  display: none;
+
 }
 
 
 @media(min-width: 1024px) {
   .imagen {
     display: flex;
-    
+
     width: 15rem;
     height: 15rem;
-  
+
 
   }
 }
@@ -397,9 +397,9 @@ body {
   text-align: center;
   font-weight: 900;
   padding: 0 2rem;
-   /* font-family: 'Gruppo', cursive; */
-   font-weight: 100;
-} 
+  /* font-family: 'Gruppo', cursive; */
+  font-weight: 100;
+}
 
 .texto__mensaje {
   font-size: 3rem;
@@ -427,5 +427,13 @@ body {
   margin-top: 5rem;
   font-size: 2.4rem;
   background-color: rgba(0, 0, 0, .8);
-   font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.autor {
+  margin: .5rem 0;
 }
